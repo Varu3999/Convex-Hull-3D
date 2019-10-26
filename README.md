@@ -42,3 +42,7 @@ We are storing the faces of the convex hull formed by points that have been cons
 8) So we iterate through all the edges of the faces contained in hull faces and if an edge map to only one face that means it is a naked edge and so we create a new face using the new point and that edge and add it to the hull faces
 9) We repeat step 2 - 8 for all the point and finally, all the faces of the hull are stored in hull faces.
 10) We then iterate through all the points and if the point lies on any of the hull faces then it is included in the answer.
+
+# References
+https://dccg.upc.edu/people/vera/wp-content/uploads/2014/11/GA2014-ConvexHulls3D-Roger-Hernando.pdf
+https://www.youtube.com/watch?v=hkZxtk36GH0&list=PLzXVAmyF07gqdDRqcCHptArYY-KAoJ3AY
